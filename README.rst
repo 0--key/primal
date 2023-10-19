@@ -1,7 +1,7 @@
-Sample Module Repository
-========================
+Sample Pythonic Module as a GitHub Repository
+==============================================
 
-This simple project is an example repo for Python projects.
+This simple project is an template for any Python projects.
 
 `Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
 
