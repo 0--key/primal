@@ -1,11 +1,10 @@
-Advanced to-do list    -*- mode: org; -*-
 #+AUTHOR:    Anton S. Kosinov
 #+TITLE:     Mental Athlete's Py-roject
 #+SUBTITLE:  Life in a plain text
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
 #+STARTUP: showall indent
-#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t pri:nil
 #+TOC: headlines 2
 #+PROPERTY:header-args :results output :exports both :eval no-export
 #+CATEGORY: Primal
@@ -16,12 +15,41 @@ SCHEDULED: <2023-10-20 Fri>
 Hosted at GitHub as a detached Repository
 
 More about [[https://docs.python-guide.org/writing/structure/][structure]]
-==============================================
+
+#+begin_src sh
+  tree
+#+end_src
+
+#+RESULTS:
+#+begin_example
+.
+├── docs
+│   ├── conf.py
+│   ├── index.rst
+│   ├── make.bat
+│   └── Makefile
+├── LICENSE
+├── Makefile
+├── MANIFEST.in
+├── README.org
+├── README.org~
+├── requirements.txt
+├── sample
+│   ├── core.py
+│   ├── helpers.py
+│   └── __init__.py
+├── setup.py
+└── tests
+    ├── context.py
+    ├── __init__.py
+    ├── test_advanced.py
+    └── test_basic.py
+
+3 directories, 18 files
+#+end_example
 
 ** This simple project is an template
 for all following further Python projects
-
----------------
 
 *** E.g. it is a mould
 and all projects will derive out from there
