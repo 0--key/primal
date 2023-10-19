@@ -4,7 +4,7 @@
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
 #+STARTUP: showall indent
-#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t pri:nil
+#+OPTIONS: tags:nil num:nil @:t ::t ^:{} _:{} *:t pri:t
 #+TOC: headlines 2
 #+PROPERTY:header-args :results output :exports both :eval no-export
 #+CATEGORY: Primal
@@ -12,7 +12,7 @@
 
 * INIT [#A] Sample Pythonic Module as a Project
 SCHEDULED: <2023-10-20 Fri>
-Hosted at GitHub as a detached Repository
+Hosted at GitHub as a *detached* Repository
 
 More about [[https://docs.python-guide.org/writing/structure/][structure]]
 
