@@ -12,6 +12,10 @@
 
 * INIT [#A] Sample Pythonic Module as a Project
 SCHEDULED: <2023-10-20 Fri>
+:LOGBOOK:
+CLOCK: [2023-10-20 Fri 09:53]--[2023-10-20 Fri 10:05] =>  0:12
+CLOCK: [2023-10-20 Fri 09:16]--[2023-10-20 Fri 09:39] =>  0:23
+:END:
 Hosted at GitHub as a *detached* Repository
 
 More about [[https://docs.python-guide.org/writing/structure/][structure]]
@@ -56,3 +60,7 @@ and all projects will derive out from there
 
 * If you want to learn more about ~setup.py~ files
 check out [[https://github.com/kennethreitz/setup.py][this]] repository.
+
+* License issue rectification
+SCHEDULED: <2023-11-02 Thu>
+[[file:LICENSE::Copyright (c) 2023, Anton S. Kosinov][Link]]
