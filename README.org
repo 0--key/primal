@@ -10,6 +10,33 @@
 #+CATEGORY: Primal
 #+TODO: RAW INIT TODO ACTIVE | DONE
 
+* Prerequisites
+
+** Emacs
+:LOGBOOK:
+CLOCK: [2023-10-31 Tue 14:27]
+:END:
+#+begin_src emacs-lisp -n :exports both
+  (princ (concat
+                  (format "Emacs version: %s\n"
+                          (emacs-version))
+                  (format "org version: %s\n"
+                          (org-version))))
+#+end_src
+
+#+RESULTS:
+: Emacs version: GNU Emacs 27.1 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.24, cairo version 1.16.0)
+:  of 2023-02-23, modified by Debian
+: org version: 9.6.11
+
+** Python
+#+begin_src sh
+python --version
+#+end_src
+
+#+RESULTS:
+: Python 3.9.2
+
 * TODO [#A] Sample Pythonic Module as a Project
 SCHEDULED: <2023-10-31 Tue>
 :LOGBOOK:
