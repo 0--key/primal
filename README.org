@@ -25,7 +25,7 @@ Hosted at GitHub as a *detached* Repository
 More about [[https://docs.python-guide.org/writing/structure/][structure]]
 
 #+begin_src sh
-  tree
+  tree -I '*.pyc|*.*#|*.org~|__pycache__'
 #+end_src
 
 #+RESULTS:
@@ -40,7 +40,6 @@ More about [[https://docs.python-guide.org/writing/structure/][structure]]
 ├── Makefile
 ├── MANIFEST.in
 ├── README.org
-├── README.org~
 ├── requirements.txt
 ├── sample
 │   ├── core.py
@@ -53,7 +52,7 @@ More about [[https://docs.python-guide.org/writing/structure/][structure]]
     ├── test_advanced.py
     └── test_basic.py
 
-3 directories, 18 files
+3 directories, 17 files
 #+end_example
 
 ** This simple project is an template
