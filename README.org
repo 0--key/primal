@@ -4,7 +4,7 @@
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
 #+STARTUP: showall indent
-#+OPTIONS: tags:nil num:nil @:t ::t ^:{} _:{} *:t pri:t
+#+OPTIONS: tags:nil num:nil @:t ::t ^:{} _:{} *:t pri:nil
 #+TOC: headlines 2
 #+PROPERTY:header-args :eval never-export
 #+CATEGORY: Primal
