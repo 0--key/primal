@@ -6,13 +6,17 @@
 #+STARTUP: showall indent
 #+OPTIONS: tags:nil num:nil @:t ::t ^:{} _:{} *:t pri:t
 #+TOC: headlines 2
-#+PROPERTY:header-args :results output :exports both :eval no-export
+#+PROPERTY:header-args :eval never-export
 #+CATEGORY: Primal
 #+TODO: RAW INIT TODO ACTIVE | DONE
 
-* INIT [#A] Sample Pythonic Module as a Project
-SCHEDULED: <2023-10-20 Fri>
+* TODO [#A] Sample Pythonic Module as a Project
+SCHEDULED: <2023-10-31 Tue>
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 13:56]--[2023-10-31 Tue 14:01] =>  0:05
+CLOCK: [2023-10-31 Tue 13:49]--[2023-10-31 Tue 13:51] =>  0:02
+CLOCK: [2023-10-25 Wed 09:55]--[2023-10-25 Wed 10:24] =>  0:29
+CLOCK: [2023-10-24 Tue 09:03]--[2023-10-24 Tue 09:20] =>  0:17
 CLOCK: [2023-10-20 Fri 09:53]--[2023-10-20 Fri 10:05] =>  0:12
 CLOCK: [2023-10-20 Fri 09:16]--[2023-10-20 Fri 09:39] =>  0:23
 :END:
