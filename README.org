@@ -24,8 +24,8 @@ Hosted at GitHub as a *detached* Repository
 
 More about [[https://docs.python-guide.org/writing/structure/][structure]]
 
-#+begin_src sh
-  tree -I '*.pyc|*.*#|*.org~|__pycache__'
+#+begin_src sh :results output :exports both
+  tree -I '*.pyc|*.*#|*.org~|__pycache__' 2>&1
 #+end_src
 
 #+RESULTS:
