@@ -30,8 +30,8 @@ CLOCK: [2023-10-31 Tue 14:27]
 : org version: 9.6.11
 
 ** Python
-#+begin_src sh
-python --version
+#+begin_src sh :results output :exports both
+python --version 2>&1
 #+end_src
 
 #+RESULTS:
