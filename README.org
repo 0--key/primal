@@ -14,7 +14,7 @@
 
 ** Emacs
 :LOGBOOK:
-CLOCK: [2023-10-31 Tue 14:27]
+CLOCK: [2023-10-31 Tue 14:27]--[2023-10-31 Tue 14:31] =>  0:04
 :END:
 #+begin_src emacs-lisp -n :exports both
   (princ (concat
@@ -37,8 +37,8 @@ python --version 2>&1
 #+RESULTS:
 : Python 3.9.2
 
-* TODO [#A] Sample Pythonic Module as a Project
-SCHEDULED: <2023-10-31 Tue>
+* INIT [#A] Sample Pythonic Module as a Project
+SCHEDULED: <2023-11-15 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 13:56]--[2023-10-31 Tue 14:01] =>  0:05
 CLOCK: [2023-10-31 Tue 13:49]--[2023-10-31 Tue 13:51] =>  0:02
@@ -92,5 +92,5 @@ and all projects will derive out from there
 check out [[https://github.com/kennethreitz/setup.py][this]] repository.
 
 * License issue rectification
-SCHEDULED: <2023-11-02 Thu>
+SCHEDULED: <2023-11-30 Thu>
 [[file:LICENSE::Copyright (c) 2023, Anton S. Kosinov][Link]]
